@@ -883,11 +883,11 @@ function showStartQuestions() {
     questionsContainer.className = 'start-questions-container';
     
     const questions = [
-        'Сколько стоит навес под ключ?',
-        'Какой материал кровли выбрать?',
-        'Чем вы отличаетесь от других компаний?',
-        'Какие гарантии даете на конструкцию?',
-        'Можно посмотреть примеры готовых навесов?',
+        'Сколько будет стоить мой дом?',
+        'Расскажите про «Дом под тапочки»',
+        'Из каких материалов строите?',
+        'Можно построить в ипотеку или с маткапиталом?',
+        'Какие гарантии даете на дом?',
         'Хочу задать свой вопрос'
     ];
     
@@ -1184,7 +1184,9 @@ function showGallery() {
         'images/gal3.png',
         'images/gal4.png',
         'images/gal5.png',
-        'images/gal6.png'
+        'images/gal6.png',
+        'images/gal7.png',
+        'images/gal8.png'
     ];
 
     galleryContainer.innerHTML = `
