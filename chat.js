@@ -1240,7 +1240,7 @@ let videoReviewsSwiperCount = 0;
 function showVideoReviews() {
     videoReviewsSwiperCount++;
     const uniqueClass = `video-reviews-swiper-${videoReviewsSwiperCount}`;
-
+``
     const videoItems = [
         {
             src: 'images/Brusketta_отзывы_от_Анны,_город_Воронеж.mp4',
