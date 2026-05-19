@@ -44,7 +44,7 @@ if (!getUnisenderGoApiKey()) {
 }
 
 const UNISENDER_GO_FROM_EMAIL = 'noreply@lp-chat.kz';
-const UNISENDER_GO_FROM_NAME = 'Brusketta';
+const UNISENDER_GO_FROM_NAME = 'Korobka';
 
 // Шаблон Telegram для будущего подключения (по умолчанию выключен)
 const TELEGRAM_TEMPLATE = {
@@ -174,7 +174,7 @@ async function sendEmailViaUniSenderGo(data) {
       message: {
         recipients: [
           { email: 'idrisovamir21tr@gmail.com' },
-          { email: 'brusketta.pro@gmail.com' },
+          { email: 'skkorobka@mail.ru' },
           { email: 'mpleads@yandex.kz' }
         ],
         subject: 'Заявка с сайта "chat.ifcompany.pro"',
